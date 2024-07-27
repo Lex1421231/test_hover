@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    div.contentblock {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    div.contentblock {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    div.contentblock {
+        width: 970px;
+    }
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+.me_foto {
+    background: url('../img/me.jpg') no-repeat center top;
+    border-radius: 10px;
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.wife_foto {
+    background: url('../img/wife.jpg') no-repeat center top;
+    border-radius: 10px;
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.dog_foto {
+    background: url('../img/dog.jpg') no-repeat center top;
+    border-radius: 10px;
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.family_foto {
+    background: url('../img/famyle.jpg') no-repeat center top;
+    border-radius: 10px;
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+p {
+    display: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+div:hover p {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.foto {
+    display: flex;
+}
